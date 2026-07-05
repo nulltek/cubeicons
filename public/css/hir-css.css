@@ -1,0 +1,20 @@
+.hir-container{
+    background-color: #F5F5F5;
+    border: 3px solid #BCBCBC;
+    border-radius: 15px;
+    padding: 25px 15px;
+    margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+    .hir-container {
+        max-height: 350px;
+        overflow: hidden;
+    }
+}
+.hir-img{
+    border-radius: 15px;
+    max-height: 300px;
+}
+.modal-image{
+    max-width: 90%;
+}

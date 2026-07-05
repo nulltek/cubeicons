@@ -1,0 +1,47 @@
+[
+    {
+        "imgID": "1.1",
+        "cuberName": "Molnár Gergő Zalán",
+        "nrs": [
+            {
+                "event": "Molnár Gergő Zalán vagyok, 15 éves gyorskockás, a Cube Icons Egyesület versenyzője.<br>A Rubik kockát körülbelül 5 éve tanultam meg kirakni, és nagyjából 3 éve versenyzek.<br>A legfőbb eredményeim:<br>-6 hivatalos Magyar Rekord<br>-18 hivatalos első helyezés<br>-Közel 70 dobogós helyezés<br>-5 Magyar bajnoki cím<br>-Jelenlegi Magyar Rekord tartó a 3x3 számban<br>-Az egyetlen 6 másodperc alatti hivatalos 3x3-as átlag Magyarországon<br>-A Magyar Ranglista 2. helyezettje 2x2-ből, és 3. helyezettje 3x3 Egykezes kirakásból<br>"
+            }
+        ]
+    },
+    {
+        "imgID": "1.2",
+        "cuberName": "Novotni Gergely",
+        "nrs": [
+            {
+                "event": "Novotni Gergely vagyok, 22 éves gyorskockás, az ELTE GTK Nemzetközi gazdálkodás szakának hallgatója, és a Cube Icons Egyesület versenyzője.<br>Nagyjából 10 éve tanultam meg a Rubik kockát és azóta versenyzek is, 15 különböző országban versenyeztem már, és sok bemutatót tartottam országszerte.<br>A legfőbb eredményeim: <br>-55 hivatalos Magyar Rekord<br>-170 hivatalos első helyezés<br>-Közel 300 dobogós helyezés <br>-14 Magyar bajnoki cím<br>-Jelenlegi Magyar Rekord tartó a 4x4-5x5-6x6-7x7-Megaminx számokban<br>-A Megaminx kategóriából a 2022-es Európa Bajnokság 6. helyezettje, és a 2024-es EB 10. helyezettje<br>"
+            }
+        ]
+    },
+    {
+        "imgID": "1.3",
+        "cuberName": "Radovics Levente",
+        "nrs": [
+            {
+                "event": "Radovics Levente vagyok, 17 éves gyorskockás, a Cube Icons Egyesület versenyzője.<br>2020-ban tanultam meg kirakni a Rubik kockát, és 2023 óta versenyzek. A fő versenyszámaim a 3x3 és 3x3 Egykezes kirakás számok.<br>A legfőbb eredményeim:<br>-4 dobogós helyezés<br>-Magyar bajnoki 6. hely 3x3-ból és 7. hely 3x3 Egykezes kirakásból<br>-Szép eredmények a 2025-ös Világbajnokságról és a 2024-es Európa Bajnokságról<br>-A Magyar Ranglistán top 20-as helyezés a 2x2-3x3-3x3 Egykezes kirakás és a Skewb számokból<br>-Az egyetlen magyar versenyző aki dobogós helyezést ért el az afrikai kontinensen<br>"
+            }
+        ]
+    },
+    {
+        "imgID": "1.4",
+        "cuberName": "Csengő Bálint",
+        "nrs": [
+            {
+                "event": "Csengő Bálint vagyok, 22 éves bajai gyorskockás és memóriasportoló, a Cube Icons Egyesület versenyzője.<br>A Rubik kocka 14 éves korom óta a mindennapjaim részét képezi, és az évek alatt a másodpercek elleni harcból egy életre szóló szenvedély lett. Hazánkban leginkább a legjobb vakon kirakóként, valamint a mezőny legjobb all-rounder versenyzőjeként vagyok ismert. <br>A legfőbb eredményeim:<br>-34 hivatalos Magyar Rekord<br>-Több mint 100 hivatalos első helyezés<br>-Közel 300 dobogós helyezés<br>-13 Magyar bajnoki cím<br>-Jelenlegi Magyar Rekord tartó a 3x3 vakon-4x4 vakon-5x5 vakon-3x3 több kocka vakon, valamint a 6x6 (egyszeri) számokban<br>-A jelenlegi legjobb Magyar világranglistás helyezés: 15. (4x4 vakon egyszeriből)<br>"
+            }
+        ]
+    },
+    {
+        "imgID": "1.5",
+        "cuberName": "Orbán Andris",
+        "nrs": [
+            {
+                "event": "Orbán Andris vagyok 15 éves gyorskockás, a Cube Icons Egyesület versenyzője.<br>A Rubik kockát körülbelül 5 éve tanultam meg kirakni, és nagyjából 4 éve versenyzek.<br>A legfőbb eredményeim:<br>-7 hivatalos Magyar Rekord <br>-11 hivatalos első helyezés<br>-Közel 40 dobogós helyezés<br>-1 Magyar Bajnoki cím<br>-Jelenlegi Magyar Rekord tartó a 2x2 számban<br>-Az első 10 legjobb átlag eredmény az országban 2x2-ből<br>-A Magyar Ranglista 3. helyezettje Pyraminx egyszeriből<br>"
+            }
+        ]
+    }
+]

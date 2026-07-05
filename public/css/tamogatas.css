@@ -1,0 +1,48 @@
+.tamogatas-div{
+    width: 100%;
+    background-color: #F5F5F5;
+    border: 3px solid #BCBCBC;
+    border-radius: 20px;
+    min-height: 120px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    margin-bottom: 20px;
+}
+.tamogatok-div{
+    width: 100%;
+    background-color: #F5F5F5;
+    border: 3px solid #BCBCBC;
+    border-radius: 20px;
+    padding: 15px 30px;
+    margin: 15px 0;
+}
+.tamogatok-lista{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 8px 0;
+}
+/* Supporter cards - mirrors cuber-div style */
+.supporter-div {
+    border: #BCBCBC 2px solid;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+.supporter-img {
+    max-height: 250px;
+    max-width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+}
+.supporter-amount {
+    font-size: 20px;
+    font-weight: bold;
+    color: #444;
+}
+.supporter-btn {
+    width: fit-content;
+}

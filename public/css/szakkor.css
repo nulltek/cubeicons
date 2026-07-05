@@ -1,0 +1,53 @@
+.szakkor-container {
+    align-items: center;
+}
+
+.szakkor-meta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin: 10px 0;
+}
+
+.szakkor-badge {
+    display: inline-block;
+    background-color: #e8e8e8;
+    border: 1px solid #BCBCBC;
+    border-radius: 20px;
+    padding: 3px 12px;
+    font-size: 14px;
+}
+
+.szakkor-modal-meta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.szakkor-btn {
+    width: fit-content;
+    align-self: center;
+    margin: 0 auto;
+}
+
+.szakkor-icon-col {
+    padding: 20px 0;
+}
+
+.szakkor-icon {
+    font-size: 100px;
+    line-height: 1;
+    filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.15));
+}
+
+@media (max-width: 767px) {
+    .szakkor-icon-col {
+        order: -1;
+    }
+    .szakkor-icon {
+        font-size: 70px;
+    }
+}
