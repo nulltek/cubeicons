@@ -7,14 +7,22 @@
 }
 @media (min-width: 768px) {
     .hir-container {
-        max-height: 350px;
-        overflow: hidden;
+        min-height: 350px;
     }
 }
 .hir-img{
     border-radius: 15px;
     max-height: 300px;
+    width: 100%;
+    object-fit: cover;
 }
 .modal-image{
-    max-width: 90%;
+    max-width: min(90%, 520px);
+    height: auto;
+    object-fit: contain;
+}
+@media (max-width: 767px) {
+    .hir-container {
+        padding: 18px 12px;
+    }
 }

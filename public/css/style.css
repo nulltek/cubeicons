@@ -1,11 +1,18 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 body{
     width: 100%;
     min-height: 100vh;
     background-color: white;
+    overflow-x: hidden;
+    line-height: 1.5;
+}
+img{
+    max-width: 100%;
+    height: auto;
 }
 
 /*Opening animation*/
@@ -97,10 +104,16 @@ body{
 .modal-footer, .modal-header{
     border: none;
 }
+.modal-dialog{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: min(500px, calc(100% - 24px));
+}
 
 /*navbar*/
 .navbar-logo{
     width: 50px;
+    height: auto;
 }
 .navbar-logo-text{
     margin-left: 15px;
@@ -123,6 +136,15 @@ body{
     .navbar-div {
         width: 100%;
         font-size: 18px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .navbar-nav {
+        padding: 10px 0;
+    }
+    .navbar-item {
+        margin-left: 0;
+        margin-right: 0;
     }
 }
 .navbar-item{
@@ -152,6 +174,25 @@ body{
 }
 
 /*Main*/
+.home-title {
+    font-size: clamp(30px, 6vw, 40px);
+    text-align: center;
+}
+.home-hero-text {
+    font-size: clamp(30px, 9vw, 50px);
+    line-height: 1.12;
+}
+.section-title {
+    font-size: clamp(26px, 5vw, 40px);
+    line-height: 1.2;
+}
+.home-visual {
+    width: min(400px, 100%);
+}
+.home-section {
+    row-gap: 28px;
+    margin-bottom: 42px;
+}
 .image{
     width: 100%;
     max-width: 213px;
@@ -169,10 +210,26 @@ body{
     background-color: #cccccc;
     border-top: #747474 2px solid;
     padding: 20px;
+    row-gap: 20px;
+}
+.main-footer [class*="col-"] {
+    min-width: 0;
+}
+.footer-logo {
+    height: 80px;
+    width: auto;
+}
+.footer-action-title {
+    color: #747474;
+    text-decoration-color: #747474;
+    text-decoration: underline;
+    font-size: 20px;
+    line-height: 1.25;
 }
 .footer-a{
     color: black;
     text-decoration: none;
+    overflow-wrap: anywhere;
 }
 .footer-a:hover{
     color: #747474;
@@ -180,4 +237,27 @@ body{
 }
 .footer-col{
     margin-bottom: 30px;
+}
+@media (max-width: 575px) {
+    .container {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+    .navbar-brand {
+        max-width: calc(100% - 64px);
+        white-space: normal;
+        line-height: 1.15;
+    }
+    .main-footer {
+        text-align: center;
+    }
+    .main-footer .text-end {
+        text-align: center !important;
+    }
+    .footer-col {
+        margin-bottom: 8px;
+    }
+    .footer-action-title {
+        font-size: 18px;
+    }
 }
