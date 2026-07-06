@@ -78,7 +78,7 @@ const supporterReplace = (temp, supporterData) => {
 
 const nrReplace = (temp, nrData) => {
     let nrOutput = temp.replace(/{%EVENT%}/g, nrData.event);
-    nrOutput = nrOutput.replace(/{%TIME%}/g, nrData.time);
+    nrOutput = nrOutput.replace(/{%TIME%}/g, nrData.time ? `: ${nrData.time}` : '');
 
     return nrOutput;
 };
